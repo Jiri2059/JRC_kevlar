@@ -60,4 +60,4 @@ ESX.RegisterUsableItem('heavykevlarpd', function (source)
     end
 end)
 
-print('^5Made By JRC scripts^7: ^1'..GetCurrentResourceName()..'^7 started ^2successfully^7...')
+print('^5Made By JRC scripts^7: ^1'..GetCurrentResourceName()..'^7 started ^2successfully^7...') 
