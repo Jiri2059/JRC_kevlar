@@ -1,6 +1,6 @@
 INSERT INTO `items` (`name`, `label`, `weight`) VALUES
-	('kevlar', 'Lehká vesta', 3000),
-	('heavykevlar', 'Težká vesta', 5000),
-	('kevlarpd', 'Lehká vesta státních složek', 3000),
-	('heavykevlarpd', 'Težká vesta státních složek', 5000)
+	('kevlar', 'Light kevlar', 3000),
+	('heavykevlar', 'Heavy kevlar', 5000),
+	('kevlarpd', 'Light police kevlar', 3000),
+	('heavykevlarpd', 'Heavy police kevlar', 5000)
 ;
