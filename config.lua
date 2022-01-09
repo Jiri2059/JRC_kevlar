@@ -2,14 +2,14 @@ Config = {}
 
 -- LOCALES
 Config.Locales = {
-    ProgressBarEquipHeavyPoliceKevlar = 'Equiping police heavy vest',
-    ProgressBarEquipPoliceKevlar = 'Equiping police light vest',
-    ProgressBarEquipHeavyKevlar = 'Equiping heavy vest',
-    ProgressBarEquipKevlar = 'Equiping light vest',
-    KevlarNotify = 'You have successfully equiped light vest',
-    HeavyKevlarNotify = 'You have successfully equiped heavy vest',
-    KevlarPoliceNotify = 'You have successfully equiped police light vest',
-    HeavyKevlarPoliceNotify = 'You have successfully equiped police heavy vest',
+    ProgressBarEquipHeavyPoliceKevlar = 'Equiping police heavy kevlar',
+    ProgressBarEquipPoliceKevlar = 'Equiping police light kevlar',
+    ProgressBarEquipHeavyKevlar = 'Equiping heavy kevlar',
+    ProgressBarEquipKevlar = 'Equiping light kevlar',
+    KevlarNotify = 'You have successfully equiped light kevlar',
+    HeavyKevlarNotify = 'You have successfully equiped heavy kevlar',
+    KevlarPoliceNotify = 'You have successfully equiped police light kevlar',
+    HeavyKevlarPoliceNotify = 'You have successfully equiped police heavy kevlar',
 }
 
 
