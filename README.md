@@ -8,7 +8,7 @@ Simple script with kevlar (bulletrpoof vests)
 - Notify
 
 # Installation
-1.Import item.sql to you database
+1.Import sql.sql to you database
 
 2.Go to config.lua and config it to you likings
 
