@@ -1,6 +1,6 @@
 fx_version "adamant"
 game "gta5"
-Author 'Иричех2059 <3#7664'
+author 'Иричех2059 <3#2059 (817517695566086206)'
 
 
 server_scripts {
