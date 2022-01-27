@@ -19,6 +19,6 @@ Simple script with kevlar (bulletrpoof vests)
 
 [Mythic notify](https://github.com/wowpanda/mythic_notify)
 
-# Made by Иричех2059 <3#7664
+# Made by Иричех2059 <3#2059
 
 ### You can edit it however you want, but you are not allowed to rename it/sell it/republish it as your.
