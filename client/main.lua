@@ -1,5 +1,5 @@
 ESX = nil
-Citizen.CreateThread(function()
+CreateThread(function()
     while ESX == nil do
         TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
     end
@@ -13,12 +13,12 @@ AddEventHandler('jrc_kevlar:kevlar', function()
 
     RequestAnimDict('amb@medic@standing@kneel@idle_a')
 	while not HasAnimDictLoaded('amb@medic@standing@kneel@idle_a') do
-		Citizen.Wait(100)
+		Wait(100)
 	end
 	
 	TaskPlayAnim(playerPed, 'amb@medic@standing@kneel@idle_a', 'idle_a', 2.0, 2.0, 5000, 1, 0, false, false, false)
     exports['pogressBar']:drawBar(Config.EquipKevlarTime*1000, Config.Locales.ProgressBarEquipKevlar )
-    Citizen.Wait(Config.EquipKevlarTime*1000)
+    Wait(Config.EquipKevlarTime*1000)
 
     AddArmourToPed(playerPed,50)
     SetPedArmour(playerPed, 50)
@@ -41,12 +41,12 @@ AddEventHandler('jrc_kevlar:heavykevlar', function()
 
     RequestAnimDict('amb@medic@standing@kneel@idle_a')
 	while not HasAnimDictLoaded('amb@medic@standing@kneel@idle_a') do
-		Citizen.Wait(100)
+		Wait(100)
 	end
 	
 	TaskPlayAnim(playerPed, 'amb@medic@standing@kneel@idle_a', 'idle_a', 2.0, 2.0, 10000, 1, 0, false, false, false)
     exports['pogressBar']:drawBar(Config.EquipHeavyKevlarTime*1000, Config.Locales.ProgressBarEquipHeavyKevlar )
-    Citizen.Wait(Config.EquipHeavyKevlarTime*1000)
+    Wait(Config.EquipHeavyKevlarTime*1000)
 
     AddArmourToPed(playerPed,100)
     SetPedArmour(playerPed, 100)
@@ -69,12 +69,12 @@ AddEventHandler('jrc_kevlar:kevlarpd', function()
 
     RequestAnimDict('amb@medic@standing@kneel@idle_a')
 	while not HasAnimDictLoaded('amb@medic@standing@kneel@idle_a') do
-		Citizen.Wait(100)
+		Wait(100)
 	end
 	
 	TaskPlayAnim(playerPed, 'amb@medic@standing@kneel@idle_a', 'idle_a', 2.0, 2.0, 5000, 1, 0, false, false, false)
     exports['pogressBar']:drawBar(Config.EquipPoliceKevlarTime*1000, Config.Locales.ProgressBarEquipPoliceKevlar )
-    Citizen.Wait(Config.EquipPoliceKevlarTime*1000)
+    Wait(Config.EquipPoliceKevlarTime*1000)
 
     AddArmourToPed(playerPed,50)
     SetPedArmour(playerPed, 50)
@@ -97,12 +97,12 @@ AddEventHandler('jrc_kevlar:heavykevlarpd', function()
 
     RequestAnimDict('amb@medic@standing@kneel@idle_a')
 	while not HasAnimDictLoaded('amb@medic@standing@kneel@idle_a') do
-		Citizen.Wait(100)
+		Wait(100)
 	end
 	
 	TaskPlayAnim(playerPed, 'amb@medic@standing@kneel@idle_a', 'idle_a', 2.0, 2.0, 10000, 1, 0, false, false, false)
     exports['pogressBar']:drawBar(Config.EquipPoliceHeavyKevlarTime*1000, Config.Locales.ProgressBarEquipHeavyPoliceKevlar )
-    Citizen.Wait(Config.EquipPoliceHeavyKevlarTime*1000)
+    Wait(Config.EquipPoliceHeavyKevlarTime*1000)
 
     AddArmourToPed(playerPed,100)
     SetPedArmour(playerPed, 100)
