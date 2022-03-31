@@ -10,7 +10,7 @@ ESX.RegisterUsableItem('kevlar', function (source)
     TriggerClientEvent('jrc_kevlar:kevlar', source)
 
     if Config.UseMythicNotify then
-        Citizen.Wait(5000)
+        Wait(5000)
         TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'success', text = Config.Locales.KevlarNotify })
     end
 
@@ -25,7 +25,7 @@ ESX.RegisterUsableItem('heavykevlar', function (source)
     TriggerClientEvent('jrc_kevlar:heavykevlar', source)
 
     if Config.UseMythicNotify then
-        Citizen.Wait(10000)
+        Wait(10000)
         TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'success', text = Config.Locales.HeavyKevlarNotify })
     end
 
@@ -40,7 +40,7 @@ ESX.RegisterUsableItem('kevlarpd', function (source)
     TriggerClientEvent('jrc_kevlar:kevlarpd', source)
 
     if Config.UseMythicNotify then
-        Citizen.Wait(5000)
+        Wait(5000)
         TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'success', text = Config.Locales.KevlarPoliceNotify })
     end
 
@@ -55,7 +55,7 @@ ESX.RegisterUsableItem('heavykevlarpd', function (source)
     TriggerClientEvent('jrc_kevlar:heavykevlarpd', source)
 
     if Config.UseMythicNotify then
-        Citizen.Wait(10000)
+        Wait(10000)
         TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'success', text = Config.Locales.HeavyKevlarPoliceNotify })
     end
 end)
